@@ -1,0 +1,161 @@
+.container {
+    background-color: #c9dbe8;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+#event-hub {
+    align-items: center;
+    color: rgb(14, 13, 13);
+    margin-bottom: 25px;
+    font-size: 30px;
+   
+}
+
+.container a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+}
+
+.container a:hover {
+    background-color: #f76d6d;
+    transition: 0.3s;
+}
+
+.header-master {
+    margin-left: 30vh;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-tambah {
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-tambah:hover {
+    background-color: #3d8b40;
+    transition: 0.3s;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   margin-left: 30vh;
+   gap: 30px;   
+}
+
+.card {
+  width: 40vh;
+  height: 60vh;
+  background-color: #cac8c8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;  
+  box-sizing: border-box;
+}
+
+.event-image-placeholder {
+    width: 20vh;
+    height: 20vh;
+    background-color: #777777;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.event-info {
+    width: 100%;
+    font-size: 18px;
+    margin-top: -10px
+}
+
+.event-info p {
+    margin-bottom: 20px;
+
+    line-height: 1.4;
+}
+
+.card-action {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+
+.btn-edit {
+    flex: 1;
+    background-color: #e0a800;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.btn-edit:hover {
+    background-color: #c69500;
+    transition: 0.3s;
+}
+
+.card-action form {
+    flex: 1;
+    margin: 0;
+}
+
+.btn-delete {
+    width: 100%;
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn-delete:hover {
+    background-color: #b52a37;
+    transition: 0.3s;
+}
+
+.event-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.4;
+    min-height: calc(1.4em * 6);
+    max-height: calc(1.4em * 6);
+}
